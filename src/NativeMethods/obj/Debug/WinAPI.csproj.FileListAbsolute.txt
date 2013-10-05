@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\NativeMethods\bin\Debug\WinAPI.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\NativeMethods\bin\Debug\WinAPI.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\NativeMethods\obj\Debug\WinAPI.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\NativeMethods\obj\Debug\WinAPI.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\NativeMethods\obj\Debug\WinAPI.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\obj\Release\MemoryInfo.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\bin\Release\MemoryInfo.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\bin\Release\MemoryInfo.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\bin\Release\WinAPI.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\bin\Release\WinAPI.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\obj\Release\MemoryInfo.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\obj\Release\MemoryInfo.pdb

@@ -1,0 +1,10 @@
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\Automation.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\Automation.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\obj\Debug\Automation.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\obj\Debug\Automation.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\obj\Debug\Automation.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\WinAPI.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\WindowsInput.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\WinAPI.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\WindowsInput.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\WindowsInput.xml

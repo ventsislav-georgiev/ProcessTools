@@ -1,0 +1,23 @@
+﻿<Window x:Class="ProcessTools.Views.KeyboardInput"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KeyboardInput" Height="344" Width="331" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
+    <Grid>
+        <Button Name="btnAccept" Content="Accept" Click="btnAccept_Click" HorizontalAlignment="Right" Margin="0,0,90,10" VerticalAlignment="Bottom" Width="75" />
+        <Button Name="btnCancel"  Content="Cancel" Click="btnCancel_Click" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" />
+        <RadioButton Name="rdKey" Content="Key" Click="RadioButton_Click" HorizontalAlignment="Left" Margin="10,10,0,0" GroupName="KeyboardInputType" IsChecked="True" VerticalAlignment="Top" />
+        <GroupBox Header="Input key:" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Height="50" Width="305">
+            <Grid>
+                <TextBox  Name="txtKey" MaxLines="1" TextWrapping="NoWrap" PreviewKeyDown="txtKey_PreviewKeyDown" HorizontalAlignment="Left" Height="21" Text="" VerticalAlignment="Top" Width="160" Margin="133,4,0,0" />
+                <CheckBox Name="chAlt" Content="Alt" HorizontalAlignment="Left" Margin="0,6,0,0" VerticalAlignment="Top" />
+                <CheckBox Name="chCtrl" Content="Ctrl" HorizontalAlignment="Left" Margin="40,6,0,0" VerticalAlignment="Top" />
+                <CheckBox Name="chShift" Content="Shift" HorizontalAlignment="Left" Margin="84,6,0,0" VerticalAlignment="Top" />
+            </Grid>
+        </GroupBox>
+        <RadioButton Name="rdText" Content="Text" Click="RadioButton_Click" HorizontalAlignment="Left" Margin="10,94,0,0" GroupName="KeyboardInputType" VerticalAlignment="Top" />
+
+        <GroupBox Header="Input text:" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Height="157" Width="305">
+            <RichTextBox Name="rtxtText" IsEnabled="False" HorizontalAlignment="Left" Height="130" VerticalAlignment="Bottom" Width="295" Margin="0,0,-2,0" />
+        </GroupBox>
+    </Grid>
+</Window>

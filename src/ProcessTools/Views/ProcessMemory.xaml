@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProcessTools.Views.ProcessMemory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wfHexBox="clr-namespace:Be.Windows.Forms;assembly=Be.Windows.Forms.HexBox"
+        xmlns:wfBitControl="clr-namespace:Be.Windows.Forms;assembly=Be.Windows.Forms.BitControl"
+        Title="ProcessMemory" Height="350" Width="670" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DockPanel>
+            <WindowsFormsHost Name="wfBC" DockPanel.Dock="Bottom" Height="50">
+                <wfBitControl:BitControl />
+            </WindowsFormsHost>
+            <WindowsFormsHost Name="wfHB" DockPanel.Dock="Top">
+                <wfHexBox:HexBox Name="HexBoxControl" />
+            </WindowsFormsHost>
+        </DockPanel>
+    </Grid>
+</Window>

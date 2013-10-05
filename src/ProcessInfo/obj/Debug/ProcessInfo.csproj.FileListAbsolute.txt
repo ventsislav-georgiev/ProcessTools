@@ -1,0 +1,9 @@
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\bin\Debug\ProcessInfo.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\bin\Debug\ProcessInfo.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\bin\Debug\MemoryInfo.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\bin\Debug\WinAPI.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\bin\Debug\MemoryInfo.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\bin\Debug\WinAPI.pdb
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\obj\Debug\ProcessInfo.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\obj\Debug\ProcessInfo.dll
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessInfo\obj\Debug\ProcessInfo.pdb

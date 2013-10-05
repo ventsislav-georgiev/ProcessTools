@@ -1,0 +1,20 @@
+﻿ProcessTools
+
+
+winexe
+C#
+.cs
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\obj\x86\Debug\
+ProcessTools
+none
+false
+DEBUG;TRACE
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\App.xaml
+3-343484899
+21205382014
+22265133972
+23901804105
+MainWindow.xaml;Views\ProcessPerf.xaml;Views\ItemChoose.xaml;
+content\images\splashscreen.png
+False
+

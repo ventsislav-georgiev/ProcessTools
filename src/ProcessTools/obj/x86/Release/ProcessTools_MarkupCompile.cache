@@ -1,0 +1,20 @@
+﻿ProcessTools
+
+
+winexe
+C#
+.cs
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\obj\x86\Release\
+ProcessTools
+none
+false
+TRACE
+D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\App.xaml
+11-1606516506
+7180479358
+27-1413939305
+30-2037902950
+MainWindow.xaml;ModernUI\ProcessHandles.xaml;ModernUI\ProcessMemoryRegions.xaml;ModernUI\ProcessProperties.xaml;ModernUI\ProcessInfoMain.xaml;Views\EditField.xaml;Views\KeyboardInput.xaml;Views\MouseInput.xaml;Views\ProcessMemory.xaml;Views\ProcessPerf.xaml;Views\ItemChoose.xaml;
+content\images\splashscreen.png
+False
+

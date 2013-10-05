@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1262EFB9-58E9-43AE-841F-1EAC347B19FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProcessTools</RootNamespace>
+    <AssemblyName>ProcessTools</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>process.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Be.Windows.Forms.BitControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Be.Windows.Forms.BitControl.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Be.Windows.Forms.HexBox">
+      <HintPath>..\Libraries\Be.Windows.Forms.HexBox.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DynamicDataDisplay">
+      <HintPath>EmbeddedLibraries\DynamicDataDisplay.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FirstFloor.ModernUI">
+      <HintPath>..\Libraries\FirstFloor.ModernUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Hardcodet.Wpf.TaskbarNotification">
+      <HintPath>EmbeddedLibraries\Hardcodet.Wpf.TaskbarNotification.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Shell">
+      <HintPath>..\Libraries\Microsoft.Windows.Shell.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReachFramework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Management">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Printing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UIAutomationTypes">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>..\Libraries\Xceed.Wpf.Toolkit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Core\ValueTypesUtil.cs" />
+    <Compile Include="ModernUI\ProcessHandles.xaml.cs">
+      <DependentUpon>ProcessHandles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModernUI\ProcessMemoryRegions.xaml.cs">
+      <DependentUpon>ProcessMemoryRegions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModernUI\ProcessProperties.xaml.cs">
+      <DependentUpon>ProcessProperties.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModernUI\ProcessInfoMain.xaml.cs">
+      <DependentUpon>ProcessInfoMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditField.xaml.cs">
+      <DependentUpon>EditField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ItemChoose.xaml.cs">
+      <DependentUpon>ItemChoose.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\ActivateWindowCommand.cs" />
+    <Compile Include="Core\Commands\CommandBase.cs" />
+    <Compile Include="Core\Converters\ImageConverter.cs" />
+    <Compile Include="Core\Converters\RangeToBooleanConverter.cs" />
+    <Compile Include="Core\DynamicDataDisplay\FilteringDataSource.cs" />
+    <Compile Include="Core\DynamicDataDisplay\MaxSizeFilter.cs" />
+    <Compile Include="Core\ProcessWrapper.cs" />
+    <Compile Include="Core\Extensions\ListViewEx.cs" />
+    <Compile Include="Core\Extensions\ObjectEx.cs" />
+    <Compile Include="Core\ExtendedClasses\ObservableCollectionEx.cs" />
+    <Compile Include="Core\DynamicDataDisplay\PerformanceInfo.cs" />
+    <Compile Include="Core\Utilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="ModernUI\ProcessHandles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModernUI\ProcessMemoryRegions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModernUI\ProcessProperties.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModernUI\ProcessInfoMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditField.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\KeyboardInput.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MouseInput.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ProcessMemory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ProcessPerf.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ItemChoose.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Views\KeyboardInput.xaml.cs">
+      <DependentUpon>KeyboardInput.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MouseInput.xaml.cs">
+      <DependentUpon>MouseInput.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProcessMemory.xaml.cs">
+      <DependentUpon>ProcessMemory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProcessPerf.xaml.cs">
+      <DependentUpon>ProcessPerf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="app.manifest">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EmbeddedLibraries\Xceed.Wpf.Toolkit.dll" />
+    <Resource Include="process.ico" />
+    <Resource Include="Content\Images\Kill.png" />
+    <Resource Include="Content\Images\Resume.png" />
+    <Resource Include="Content\Images\Suspend.png" />
+    <Resource Include="Content\Icons\Worker.ico" />
+    <EmbeddedResource Include="Executables\handle.exe" />
+    <EmbeddedResource Include="EmbeddedLibraries\DynamicDataDisplay.dll" />
+    <EmbeddedResource Include="EmbeddedLibraries\Hardcodet.Wpf.TaskbarNotification.dll" />
+    <SplashScreen Include="Content\Images\SplashScreen.png" />
+    <EmbeddedResource Include="EmbeddedLibraries\FirstFloor.ModernUI.dll" />
+    <Resource Include="EmbeddedLibraries\FirstFloor.ModernUI.xml" />
+    <Resource Include="Content\Images\Resume_512.png" />
+    <Resource Include="Content\Images\Suspend_512.png" />
+    <Resource Include="Content\Images\Resume_48.png" />
+    <Resource Include="Content\Images\Suspend_48.png" />
+    <Resource Include="Content\Images\ScreenInfo-512.png" />
+    <Resource Include="Content\Images\ScreenInfo.png" />
+    <EmbeddedResource Include="EmbeddedLibraries\Be.Windows.Forms.BitControl.dll" />
+    <EmbeddedResource Include="EmbeddedLibraries\Automation.dll" />
+    <Content Include="EmbeddedLibraries\Automation.pdb" />
+    <Content Include="EmbeddedLibraries\Be.Windows.Forms.BitControl.pdb" />
+    <EmbeddedResource Include="EmbeddedLibraries\Be.Windows.Forms.HexBox.dll" />
+    <Content Include="EmbeddedLibraries\Hardcodet.Wpf.TaskbarNotification.pdb" />
+    <Resource Include="EmbeddedLibraries\Hardcodet.Wpf.TaskbarNotification.xml" />
+    <EmbeddedResource Include="EmbeddedLibraries\WindowsInput.dll" />
+    <EmbeddedResource Include="EmbeddedLibraries\MemoryInfo.dll" />
+    <Content Include="EmbeddedLibraries\MemoryInfo.pdb" />
+    <EmbeddedResource Include="EmbeddedLibraries\ProcessInfo.dll" />
+    <EmbeddedResource Include="EmbeddedLibraries\Microsoft.Windows.Shell.dll" />
+    <Content Include="EmbeddedLibraries\ProcessInfo.pdb" />
+    <EmbeddedResource Include="EmbeddedLibraries\WinAPI.dll" />
+    <Content Include="EmbeddedLibraries\WinAPI.pdb" />
+    <Content Include="EmbeddedLibraries\WindowsInput.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="EmbeddedLibraries\WindowsInput.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Automation\Automation.csproj">
+      <Project>{75ca7138-8e65-4df7-abce-44b9ef90859e}</Project>
+      <Name>Automation</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MemoryInfo\MemoryInfo.csproj">
+      <Project>{9c407f0c-4ac6-4e6b-838e-cadc3e5da02f}</Project>
+      <Name>MemoryInfo</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\NativeMethods\WinAPI.csproj">
+      <Project>{cf4730f6-d0fa-46d0-9ce3-5be315ac152f}</Project>
+      <Name>WinAPI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProcessInfo\ProcessInfo.csproj">
+      <Project>{6c301f4a-b919-438c-98a7-cf48b5e2045d}</Project>
+      <Name>ProcessInfo</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
