@@ -46,3 +46,38 @@ D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\bin\Debug\Mem
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\bin\Debug\ProcessInfo.pdb
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\bin\Debug\WindowsInput.pdb
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\bin\Debug\WindowsInput.xml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\bin\Debug\ProcessTools.exe.config
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ProcessTools.exe
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ProcessTools.pdb
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\bin\Debug\ProcessTools.exe
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\bin\Debug\ProcessTools.pdb
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ProcessTools.csprojResolveAssemblyReference.cache
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ModernUI\ProcessHandles.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ModernUI\ProcessMemoryRegions.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ModernUI\ProcessProperties.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ModernUI\ProcessInfoMain.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\EditField.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\KeyboardInput.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\MouseInput.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\ProcessMemory.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\ProcessPerf.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\ItemChoose.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\App.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\MainWindow.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ModernUI\ProcessHandles.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ModernUI\ProcessMemoryRegions.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ModernUI\ProcessProperties.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ModernUI\ProcessInfoMain.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\EditField.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\KeyboardInput.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\MouseInput.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\ProcessMemory.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\ProcessPerf.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\Views\ItemChoose.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\App.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ProcessTools_Content.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ProcessTools_MarkupCompile.cache
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ProcessTools_MarkupCompile.lref
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\MainWindow.baml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\ProcessTools.g.resources

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\obj\Debug\
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\
 ProcessTools
 none
 false
 DEBUG;TRACE
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\ProcessTools\App.xaml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\App.xaml
 11-1606516506
 7180479358
-31315447209
-301893489232
+31-2106888532
+3065793322
 MainWindow.xaml;ModernUI\ProcessHandles.xaml;ModernUI\ProcessMemoryRegions.xaml;ModernUI\ProcessProperties.xaml;ModernUI\ProcessInfoMain.xaml;Views\EditField.xaml;Views\KeyboardInput.xaml;Views\MouseInput.xaml;Views\ProcessMemory.xaml;Views\ProcessPerf.xaml;Views\ItemChoose.xaml;
 content\images\splashscreen.png
 True

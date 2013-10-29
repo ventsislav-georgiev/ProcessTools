@@ -5,3 +5,10 @@ D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\bin\Debug\WinAP
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\obj\Debug\MemoryInfo.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\obj\Debug\MemoryInfo.dll
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\MemoryInfo\obj\Debug\MemoryInfo.pdb
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\MemoryInfo.dll
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\MemoryInfo.pdb
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\WinAPI.dll
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\WinAPI.pdb
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.csprojResolveAssemblyReference.cache
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.dll
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.pdb

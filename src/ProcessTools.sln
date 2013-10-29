@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessTools", "ProcessTool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessInfo", "ProcessInfo\ProcessInfo.csproj", "{6C301F4A-B919-438C-98A7-CF48B5E2045D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAPI", "NativeMethods\WinAPI.csproj", "{CF4730F6-D0FA-46D0-9CE3-5BE315AC152F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAPI", "WinAPI\WinAPI.csproj", "{CF4730F6-D0FA-46D0-9CE3-5BE315AC152F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryInfo", "MemoryInfo\MemoryInfo.csproj", "{9C407F0C-4AC6-4E6B-838E-CADC3E5DA02F}"
 EndProject

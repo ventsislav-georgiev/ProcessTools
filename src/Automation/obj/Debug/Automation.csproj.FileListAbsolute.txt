@@ -8,3 +8,13 @@ D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\Windo
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\WinAPI.pdb
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\WindowsInput.pdb
 D:\Documents\Visual Studio 2012\Projects\ProcessTools\Automation\bin\Debug\WindowsInput.xml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\Automation.dll
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\Automation.pdb
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WinAPI.dll
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WindowsInput.dll
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WinAPI.pdb
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WindowsInput.pdb
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WindowsInput.xml
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.csprojResolveAssemblyReference.cache
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.dll
+C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.pdb
