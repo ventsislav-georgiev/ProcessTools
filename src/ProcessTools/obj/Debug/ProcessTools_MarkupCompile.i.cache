@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\
+D:\Documents\GitHub\ProcessTools\src\ProcessTools\obj\Debug\
 ProcessTools
 none
 false
 DEBUG;TRACE
-C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\ProcessTools\App.xaml
+D:\Documents\GitHub\ProcessTools\src\ProcessTools\App.xaml
 11-1606516506
 7180479358
-31-2106888532
-3065793322
+311656980859
+30-908181271
 MainWindow.xaml;ModernUI\ProcessHandles.xaml;ModernUI\ProcessMemoryRegions.xaml;ModernUI\ProcessProperties.xaml;ModernUI\ProcessInfoMain.xaml;Views\EditField.xaml;Views\KeyboardInput.xaml;Views\MouseInput.xaml;Views\ProcessMemory.xaml;Views\ProcessPerf.xaml;Views\ItemChoose.xaml;
 content\images\splashscreen.png
-True
+False
 

@@ -18,3 +18,13 @@ C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WindowsIn
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.csprojResolveAssemblyReference.cache
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.dll
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.pdb
+D:\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\Automation.dll
+D:\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\Automation.pdb
+D:\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WinAPI.dll
+D:\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WindowsInput.dll
+D:\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WinAPI.pdb
+D:\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WindowsInput.pdb
+D:\Documents\GitHub\ProcessTools\src\Automation\bin\Debug\WindowsInput.xml
+D:\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.dll
+D:\Documents\GitHub\ProcessTools\src\Automation\obj\Debug\Automation.pdb

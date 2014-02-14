@@ -8,3 +8,8 @@ C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\NativeMethods\bin\Debug\WinAPI
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\NativeMethods\obj\Debug\WinAPI.csprojResolveAssemblyReference.cache
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\NativeMethods\obj\Debug\WinAPI.dll
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\NativeMethods\obj\Debug\WinAPI.pdb
+D:\Documents\GitHub\ProcessTools\src\WinAPI\bin\Debug\WinAPI.dll
+D:\Documents\GitHub\ProcessTools\src\WinAPI\bin\Debug\WinAPI.pdb
+D:\Documents\GitHub\ProcessTools\src\WinAPI\obj\Debug\WinAPI.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\ProcessTools\src\WinAPI\obj\Debug\WinAPI.dll
+D:\Documents\GitHub\ProcessTools\src\WinAPI\obj\Debug\WinAPI.pdb

@@ -12,3 +12,10 @@ C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\WinAPI.pd
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.csprojResolveAssemblyReference.cache
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.dll
 C:\Users\Ventsi\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.pdb
+D:\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\MemoryInfo.dll
+D:\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\MemoryInfo.pdb
+D:\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\WinAPI.dll
+D:\Documents\GitHub\ProcessTools\src\MemoryInfo\bin\Debug\WinAPI.pdb
+D:\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.dll
+D:\Documents\GitHub\ProcessTools\src\MemoryInfo\obj\Debug\MemoryInfo.pdb
