@@ -1,7 +1,0 @@
-﻿  stdafx.cpp
-  DummyApp.cpp
-DummyApp.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-DummyApp.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Generating code
-  Finished generating code
-  DummyApp.vcxproj -> D:\Documents\Visual Studio 2012\Projects\ProcessTools\Release\DummyApp.exe

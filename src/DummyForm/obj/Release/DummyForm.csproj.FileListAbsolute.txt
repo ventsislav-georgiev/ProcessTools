@@ -1,9 +1,0 @@
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\bin\Release\DummyForm.exe.config
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\bin\Release\DummyForm.exe
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\bin\Release\DummyForm.pdb
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\obj\Release\DummyForm.DummyForm.resources
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\obj\Release\DummyForm.Properties.Resources.resources
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\obj\Release\DummyForm.csproj.GenerateResource.Cache
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\obj\Release\DummyForm.exe
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\obj\Release\DummyForm.pdb
-D:\Documents\Visual Studio 2012\Projects\ProcessTools\DummyForm\obj\Release\DummyForm.csprojResolveAssemblyReference.cache
